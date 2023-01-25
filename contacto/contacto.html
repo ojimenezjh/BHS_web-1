@@ -14,6 +14,7 @@
 
 <body class="bg-gray-100">
     <header>
+
         <nav class="bg-blue-400 border-gray-200 px-2 sm:px-4 py-2.5 dark:bg-gray-900">
             <div class="container flex flex-wrap items-center justify-between mx-auto">
                 <a href="#" class="flex items-center">
@@ -44,7 +45,7 @@
                                 class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Centro</a>
                         </li>
                         <li>
-                            <a href="sobreNosotros.html"
+                            <a href="../sobreNosotros/sobreNosotros.html"
                                 class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Sobre
                                 nosotros</a>
                         </li>
@@ -54,7 +55,7 @@
                                 y precios</a>
                         </li>
                         <li>
-                            <a href="../contacto/contacto.html"
+                            <a href="contacto.html"
                                 class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contacto
                                 - Pedir cita</a>
                         </li>
@@ -68,64 +69,33 @@
     </header>
     <section class="py-8">
         <div class="container mx-auto px-4">
-            <h2 class="text-3xl font-medium text-center mb-4 text-blue-700">Filosofía de BHS</h2>
-            <div class="flex flex-wrap -mx-4 flex-col items-center">
-                <div class="md:w-1/2 px-4 mb-8">
-                    <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-                        <div class="p-6 text-center">
-                            <h3 class="text-xl font-medium mb-2 text-blue-700">Nuestra misión</h3>
-                            <p class="text-gray-600 mb-4 text-justify">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat qui exercitationem rem assumenda libero, eum fuga voluptas temporibus, tempora odit dolore eligendi vel fugiat magnam incidunt autem! Voluptates, quod cupiditate!</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="md:w-1/2 px-4 mb-8">
-                    <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-                        <div class="p-6 text-center">
-                            <h3 class="text-xl font-medium mb-2 text-blue-700">Nuestra visión</h3>
-                            <p class="text-gray-600 mb-4 text-justify">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat qui exercitationem rem assumenda libero, eum fuga voluptas temporibus, tempora odit dolore eligendi vel fugiat magnam incidunt autem! Voluptates, quod cupiditate!</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="md:w-1/2 px-4 mb-8">
-                    <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-                        <div class="p-6 text-center">
-                            <h3 class="text-xl font-medium mb-2 text-blue-700">Nuestros valores</h3>
-                            <p class="text-gray-600 mb-4 text-justify">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat qui exercitationem rem assumenda libero, eum fuga voluptas temporibus, tempora odit dolore eligendi vel fugiat magnam incidunt autem! Voluptates, quod cupiditate!</p>
-                        </div>
-                    </div>
-                </div>
+            <h2 class="text-3xl font-medium text-center mb-4 text-blue-700">Háznos saber tus dudas</h2>
+            <!--Crea un formulario donde se pida el nombre, correo, telefono y que puedan dejar un mensaje. Que el formulario se envie a un correo-->
+            <form action="mailto:#" method="post" enctype="text/plain">
+                <input type="text" name="nombre" id="nombre" placeholder="Nombre*" class="w-full rounded-md mb-3">
+                <input type="email" name="correo" id="correo" placeholder="Email*" class="w-full rounded-md mb-3">
+                <input type="tel" name="telefono" id="telefono" placeholder="Telefono*" class="w-full rounded-md mb-3">
+                <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Mensaje*" class="w-full rounded-md mb-3 p-2"></textarea>
+                <!--Crea un boton que sirva para enviar el formulario-->
+                <button type="submit" class="bg-blue-700 text-white text-xl w-full rounded-md px-6 py-2 mb-8">Enviar</button>
+            </form>
 
-                <h2 class="text-3xl font-medium text-center mb-4 text-blue-700">Metodología de trabajo</h2>
-                <div class="md:w-1/2 px-4 mb-8">
-                    <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-                        <div class="p-6 text-center">
-                            <h3 class="text-xl font-medium mb-2 text-blue-700">Maquinaria</h3>
-                            <p class="text-gray-600 mb-4 text-justify">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat qui exercitationem rem assumenda libero, eum fuga voluptas temporibus, tempora odit dolore eligendi vel fugiat magnam incidunt autem! Voluptates, quod cupiditate!</p>
-                        </div>
-                    </div>
-                </div>
+            <h2 class="text-3xl font-medium text-center mb-4 text-blue-700">Contacto</h2>
+            <p class="text-gray-600 text-left mb-8 text-sm">613 022 286</p>
+            <p class="text-gray-600 text-left mb-8 text-sm">bhsglobal.bcn@gmail.com</p>
+            <p class="text-gray-600 text-left mb-8 text-sm">@bhsglobal</p>
 
-                <h2 class="text-3xl font-medium text-center mb-4 text-blue-700">¡Conócenos!</h2>
-                <div class="md:w-1/2 px-4 mb-8">
-                    <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+            <h2 class="text-3xl font-medium text-center mb-4 text-blue-700">Horario</h2>
+            <p class="text-gray-600 text-left mb-8 text-sm">L - V 8:00 - 21:00 / Sábado 9:00 - 14:00</p>
 
-                        <div class="p-6 text-center">
-                            <h3 class="text-xl font-medium mb-2 text-blue-700">El equipo</h3>
-                            <p class="text-gray-600 mb-4 text-justify">Contamos con entrenadores personales y fisioterapeutas multidisciplinares. Si estás orientado al desarrollo de la fuerza y el alto rendimiento, tu meta es ponerte en forma, prepararte para oposiciones (bombero, policia, mosso,...) o quieres complementar alguna otra disciplina que practiques, buscaremos a la persona que mejor se adapte a ti y tus objetivos para sacar tu máximo potencial.</p>
-                        </div>
-                        <div class="p-6 text-center">
-                            <img class="w-full mb-4 rounded-lg" src="../img/pepitoMartinez.jpg" alt="Imagen de clases">
-                            <a href="#" class="text-blue-500 hover:underline text-xl text-center">Pepito Martinez</a>
-                        </div>
-                        <div class="p-6 text-center">
-                            <img class="w-full mb-4 rounded-lg" src="../img/pepitoMartinez.jpg" alt="Imagen de clases">
-                            <a href="#" class="text-blue-500 hover:underline text-xl text-center">Pepito Martinez</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
+            <h2 class="text-3xl font-medium text-center mb-4 text-blue-700">¿Dónde nos puedes encontrar?</h2>
+            <p class="text-gray-600 text-left mb-8 text-sm">Passeig d'Amunt, 41, 08024 Barcelona</p>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2992.313995743031!2d2.158572215734246!3d41.41070210251193!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a318ebf13e09%3A0xba0db25e1e09a8e7!2sBHS%20Rehabilitaci%C3%B3n%20y%20Entrenamiento!5e0!3m2!1sca!2ses!4v1674644513106!5m2!1sca!2ses"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                class="w-full h-96 rounded-lg shadow-lg mb-8"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
         </div>
     </section>
     <button type="button" class=" items-center p-6 text-sm font-medium rounded-full fixed bottom-0 right-0">
@@ -137,23 +107,7 @@
         </svg>
     </button>
     <footer class="">
-        <div class="bg-green-400 py-8">
-            <div class="container mx-auto px-8 text-justify text-white mb-8">
-                <p>BHS es tu centro sanitario. Un espacio de salud exclusivo a tu disposición. Fisioterapia,
-                    Entrenamiento Personal y Nutrición son nuestros pilares.</p>
-            </div>
-            <div class="container mx-auto px-8 text-justify text-white mb-8">
-                <h3 class="text-xl font-medium mb-2">CONTACTO</h3>
-                <p>Calle donde esté BHS, Ciudad</p>
-                <p>613 022 286</p>
-                <p>bhsglobal.bcn@gmail.com</p>
-                <a href="https://www.instagram.com/bhsglobal/">@bhsglobal</a>
-            </div>
-            <div class="container mx-auto px-8 text-justify text-white">
-                <h3 class="text-xl font-medium mb-2">HORARIO</h3>
-                <p class="mb-2">L - V 8:00 - 21:00 / Sábado 9:00 - 14:00</p>
-            </div>
-        </div>
+        
 
         <div class="bg-gray-800 py-8">
             <div class="container mx-auto px-4 text-center text-white">
