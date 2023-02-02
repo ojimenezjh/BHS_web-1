@@ -1,0 +1,10 @@
+#contenedor{
+    width: 7500px;
+    overflow:scroll;
+
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
