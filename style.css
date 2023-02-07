@@ -9,6 +9,10 @@
 
 
 /* Fix the header to the top of the page */
+#logo {
+    filter: saturate(50%);
+    filter: grayscale(100%);
+}
 header {
     position: fixed;
     top: 0;
