@@ -15,11 +15,12 @@
 <body class="bg-gray-100">
     <header>
 
-        <nav class="bg-blue-400 border-gray-200 px-2 sm:px-4 py-2.5">
+        <nav class="bg-blue-100 border-gray-200 px-2 sm:px-4 py-2.5">
             <div class="container flex flex-wrap items-center justify-between mx-auto">
                 <a href="#" class="flex items-center">
-          <img src="../img/Degradado_Logo BHS.svg" style="filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.8));" class="h-16 mr-3 sm:h-20" alt="" />
-        </a>
+                    <img src="../img/Degradado_Logo BHS.svg" style="filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.8));"
+                        class="h-16 mr-3 sm:h-20" alt="" />
+                </a>
                 <button data-collapse-toggle="navbar-default" type="button"
                     class="inline-flex items-center p-2 ml-3 text-sm text-black rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
                     aria-controls="navbar-default" aria-expanded="false">
@@ -33,7 +34,7 @@
                 </button>
                 <div class="hidden w-full md:block md:w-auto" id="navbar-default">
                     <ul
-                        class="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white">
+                        class="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-blue-100">
                         <li>
                             <a href="../index.html"
                                 class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0"
@@ -61,7 +62,8 @@
                 </div>
             </div>
         </nav>
-        <div class="bg-cover bg-center h-80" style="background-image: url('../img/fotosCentro/IMG_0053.jpg')" ;>
+        <div class="bg-cover bg-center h-80 hidden md:block"
+            style="background-image: url('../img/fotosCentro/IMG_0053.jpg')" ;>
             <div class="bg-black bg-opacity-50 h-full"></div>
         </div>
     </header>
@@ -72,14 +74,62 @@
                 <div class="md:w-1/2 px-4 mb-8">
                     <div class="bg-white rounded-lg shadow-lg overflow-hidden">
                         <div class="p-6 text-center">
-                            <h3 class="text-xl font-medium mb-2 text-blue-700">Fisioterapia</h3>
+                            <h3 class="text-2xl font-medium mb-4 text-blue-700">Fisioterapia</h3>
                             <ul>
-                                <li class="text-gray-600 mb-4 text-justify">Musculo-esquelética</li>
-                                <li class="text-gray-600 mb-4 text-justify">Punción seca</li>
-                                <li class="text-gray-600 mb-4 text-justify">Readaptación deportiva</li>
-                                <li class="text-gray-600 mb-4 text-justify">Rehabilitación de lesiones</li>
-                                <li class="text-gray-600 mb-4 text-justify">Prevención de lesiones</li>
-                                <li class="text-gray-600 text-justify">Neurología</li>
+                                <li class="text-gray-600 mb-4 text-justify flex">
+                                    <svg aria-hidden="true" class="flex-shrink-0 w-5 h-5 mr-3 text-blue-600 "
+                                        fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                        <title>Check icon</title>
+                                        <path fill-rule="evenodd"
+                                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                            clip-rule="evenodd"></path>
+                                    </svg>Musculo-esquelética
+                                </li>
+                                <li class="text-gray-600 mb-4 text-justify flex">
+                                    <svg aria-hidden="true" class="flex-shrink-0 w-5 h-5 mr-3 text-blue-600 "
+                                        fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                        <title>Check icon</title>
+                                        <path fill-rule="evenodd"
+                                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                            clip-rule="evenodd"></path>
+                                    </svg>Punción seca
+                                </li>
+                                <li class="text-gray-600 mb-4 text-justify flex">
+                                    <svg aria-hidden="true" class="flex-shrink-0 w-5 h-5 mr-3 text-blue-600 "
+                                        fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                        <title>Check icon</title>
+                                        <path fill-rule="evenodd"
+                                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                            clip-rule="evenodd"></path>
+                                    </svg>Readaptación deportiva
+                                </li>
+                                <li class="text-gray-600 mb-4 text-justify flex">
+                                    <svg aria-hidden="true" class="flex-shrink-0 w-5 h-5 mr-3 text-blue-600 "
+                                        fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                        <title>Check icon</title>
+                                        <path fill-rule="evenodd"
+                                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                            clip-rule="evenodd"></path>
+                                    </svg>Rehabilitación de lesiones
+                                </li>
+                                <li class="text-gray-600 mb-4 text-justify flex">
+                                    <svg aria-hidden="true" class="flex-shrink-0 w-5 h-5 mr-3 text-blue-600 "
+                                        fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                        <title>Check icon</title>
+                                        <path fill-rule="evenodd"
+                                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                            clip-rule="evenodd"></path>
+                                    </svg>Prevención de lesiones
+                                </li>
+                                <li class="text-gray-600 text-justify flex">
+                                    <svg aria-hidden="true" class="flex-shrink-0 w-5 h-5 mr-3 text-blue-600 "
+                                        fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                        <title>Check icon</title>
+                                        <path fill-rule="evenodd"
+                                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                            clip-rule="evenodd"></path>
+                                    </svg>Neurología
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -89,13 +139,53 @@
                 <div class="md:w-1/2 px-4 mb-8">
                     <div class="bg-white rounded-lg shadow-lg overflow-hidden">
                         <div class="p-6 text-center">
-                            <h3 class="text-xl font-medium mb-2 text-blue-700">Entrenamiento</h3>
+                            <h3 class="text-2xl font-medium mb-4 text-blue-700">Entrenamiento</h3>
                             <ul>
-                                <li class="text-gray-600 mb-4 text-justify">Mejora de fuerza</li>
-                                <li class="text-gray-600 mb-4 text-justify">Pèrdida de grasa/peso</li>
-                                <li class="text-gray-600 mb-4 text-justify">Entrenamiento funcional</li>
-                                <li class="text-gray-600 mb-4 text-justify">Preparación de oposiciones</li>
-                                <li class="text-gray-600 text-justify">HIIT</li>
+                                <li class="text-gray-600 mb-4 text-justify flex">
+                                    <svg aria-hidden="true" class="flex-shrink-0 w-5 h-5 mr-3 text-blue-600 "
+                                        fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                        <title>Check icon</title>
+                                        <path fill-rule="evenodd"
+                                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                            clip-rule="evenodd"></path>
+                                    </svg>Mejora de fuerza
+                                </li>
+                                <li class="text-gray-600 mb-4 text-justify flex">
+                                    <svg aria-hidden="true" class="flex-shrink-0 w-5 h-5 mr-3 text-blue-600 "
+                                        fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                        <title>Check icon</title>
+                                        <path fill-rule="evenodd"
+                                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                            clip-rule="evenodd"></path>
+                                    </svg>Pèrdida de grasa/peso
+                                </li>
+                                <li class="text-gray-600 mb-4 text-justify flex">
+                                    <svg aria-hidden="true" class="flex-shrink-0 w-5 h-5 mr-3 text-blue-600 "
+                                        fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                        <title>Check icon</title>
+                                        <path fill-rule="evenodd"
+                                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                            clip-rule="evenodd"></path>
+                                    </svg>Entrenamiento funcional
+                                </li>
+                                <li class="text-gray-600 mb-4 text-justify flex">
+                                    <svg aria-hidden="true" class="flex-shrink-0 w-5 h-5 mr-3 text-blue-600 "
+                                        fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                        <title>Check icon</title>
+                                        <path fill-rule="evenodd"
+                                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                            clip-rule="evenodd"></path>
+                                    </svg>Preparación de oposiciones
+                                </li>
+                                <li class="text-gray-600 text-justify flex">
+                                    <svg aria-hidden="true" class="flex-shrink-0 w-5 h-5 mr-3 text-blue-600 "
+                                        fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                        <title>Check icon</title>
+                                        <path fill-rule="evenodd"
+                                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                            clip-rule="evenodd"></path>
+                                    </svg>HIIT
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -103,12 +193,12 @@
             </div>
 
             <h2 class="text-3xl font-medium text-center mb-4 text-blue-700">Nuestras tarifas</h2>
-            <h3 class="text-1xl font-medium text-center mb-4 text-blue-700">Fisioterapia + Entrenamiento personal</h3>
+            <h3 class="text-2xl font-medium text-center mb-4 text-blue-700">Fisioterapia + Entrenamiento personal</h3>
             <div class="flex flex-wrap -mx-4 flex-col items-center">
                 <div class="w-full h-52 px-4 mb-8">
                     <div class="bg-white rounded-lg shadow-lg overflow-hidden h-full">
                         <div class="p-6 text-center h-auto mt-7">
-                            <h3 class="text-4xl font-bold mb-2 text-blue-700">  1 SESIÓN</h3>
+                            <h3 class="text-4xl font-bold mb-2 text-blue-700"> 1 SESIÓN</h3>
                             <p class="text-3xl text-gray-700 mt-6">50€</p>
                         </div>
                     </div>
@@ -118,7 +208,7 @@
                 <div class="w-full h-52 px-4 mb-8">
                     <div class="bg-white rounded-lg shadow-lg overflow-hidden h-full">
                         <div class="p-6 text-center h-auto mt-4">
-                            <h3 class="text-4xl font-bold mb-2 text-blue-700">  5 SESIONES</h3>
+                            <h3 class="text-4xl font-bold mb-2 text-blue-700"> 5 SESIONES</h3>
                             <p class="text-3xl text-gray-700 mt-4">235€</p>
                         </div>
                     </div>
@@ -128,20 +218,20 @@
                 <div class="w-full h-52 px-4 mb-8">
                     <div class="bg-white rounded-lg shadow-lg overflow-hidden h-full">
                         <div class="p-6 text-center h-auto mt-4">
-                            <h3 class="text-4xl font-bold mb-2 text-blue-700">  10 SESIONES</h3>
+                            <h3 class="text-4xl font-bold mb-2 text-blue-700"> 10 SESIONES</h3>
                             <p class="text-3xl text-gray-700 mt-4">450€</p>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <h3 class="text-1xl font-medium text-center mb-4 text-blue-700">Entrenamiento en pareja</h3>
+            <h3 class="text-2xl font-medium text-center mb-4 text-blue-700">Entrenamiento en pareja</h3>
             <p class="text-gray-600 mb-4 text-right text-xs">*Precio por persona</p>
             <div class="flex flex-wrap -mx-4 flex-col items-center">
                 <div class="w-full h-52 px-4 mb-8">
                     <div class="bg-white rounded-lg shadow-lg overflow-hidden h-full">
                         <div class="p-6 text-center h-auto mt-7">
-                            <h3 class="text-4xl font-bold mb-2 text-blue-700">  1 SESIÓN</h3>
+                            <h3 class="text-4xl font-bold mb-2 text-blue-700"> 1 SESIÓN</h3>
                             <p class="text-3xl text-gray-700 mt-6">35€</p>
                         </div>
                     </div>
@@ -151,7 +241,7 @@
                 <div class="w-full h-52 px-4 mb-8">
                     <div class="bg-white rounded-lg shadow-lg overflow-hidden h-full">
                         <div class="p-6 text-center h-auto mt-4">
-                            <h3 class="text-4xl font-bold mb-2 text-blue-700">  5 SESIONES</h3>
+                            <h3 class="text-4xl font-bold mb-2 text-blue-700"> 5 SESIONES</h3>
                             <p class="text-3xl text-gray-700 mt-4">165€</p>
                         </div>
                     </div>
@@ -161,7 +251,7 @@
                 <div class="w-full h-52 px-4 mb-8">
                     <div class="bg-white rounded-lg shadow-lg overflow-hidden h-full">
                         <div class="p-6 text-center h-auto mt-4">
-                            <h3 class="text-4xl font-bold mb-2 text-blue-700">  10 SESIONES</h3>
+                            <h3 class="text-4xl font-bold mb-2 text-blue-700"> 10 SESIONES</h3>
                             <p class="text-3xl text-gray-700 mt-4">300€</p>
                         </div>
                     </div>
@@ -169,7 +259,8 @@
             </div>
 
 
-            <h3 class="text-1xl font-medium text-center mb-4 text-blue-700">Entrenamiento en grupos reducidos <br>(5 a 8 personas)</h3>
+            <h3 class="text-2xl font-medium text-center mb-4 text-blue-700">Entrenamiento en grupos reducidos <br>(5 a 8
+                personas)</h3>
             <p class="text-gray-600 mb-4 text-right text-xs">*Pago mensual</p>
             <div class="flex flex-wrap -mx-4 flex-col items-center">
                 <div class="w-full h-52 px-4 mb-8">
@@ -203,11 +294,12 @@
             </div>
 
 
-            <h3 class="text-1xl font-medium text-center mb-4 text-blue-700">Nutrición</h3>
+            <h3 class="text-3xl font-medium text-center mb-4 text-blue-700">Nutrición</h3>
             <p class="text-gray-600 mb-4 text-right text-xs">*Falta especificar</p>
 
 
-            <h3 class="text-1xl font-medium text-center mb-4 text-blue-700">Alquiler de material</h3>
+            <h3 class="text-3xl font-medium text-center mb-4 text-blue-700">Alquiler de material</h3>
+            <h4 class="text-2xl font-medium text-center mb-4 text-gray-700">*Preguntar disponibilidad*</h4>
             <p class="text-gray-600 mb-4 text-right text-xs">*Pago semanal</p>
             <div class="flex flex-wrap -mx-4 flex-col items-center">
                 <div class="w-full h-52 px-4 mb-8">
@@ -250,11 +342,13 @@
                 <p>Calle donde esté BHS, Ciudad</p>
                 <p>613 022 286</p>
                 <p>bhsglobal.bcn@gmail.com</p>
-                <a href="https://www.instagram.com/bhsglobal/">@bhsglobal</a>
+                <a href="https://www.instagram.com/bhsglobal/"><img class="inline-flex mr-2 w-6 mb-1 invert"
+                        src="../img/instagram-logo-svgrepo-com.svg" alt="">@bhsglobal</a>
             </div>
             <div class="container mx-auto px-8 text-justify text-white">
                 <h3 class="text-xl font-medium mb-2">HORARIO</h3>
-                <p class="mb-2">Lunes - Viernes 8:00 - 21:00 / Sábado 9:00 - 14:00</p>
+                <p class="mb-1">Lunes - Viernes 8:00 - 21:00</p>
+                <p class="mb-2">Sábado 9:00 - 14:00</p>
             </div>
         </div>
 
